@@ -83,11 +83,7 @@ Build an accurate, interpretable, and scalable breast cancer detection system us
 
 - **Expand dataset** using additional public and clinical mammography databases.  
 - **Integrate segmentation models** (U-Net, Mask R-CNN) for lesion boundary detection.  
-- **Introduce self-supervised learning** to improve feature extraction with limited labels.  
-- **Optimize the Hybrid ResNet–ViT** architecture with lightweight transformers (e.g., MobileViT, Swin-T).  
 - **Deploy as a cloud-based diagnostic tool** with real-time inference and explainability.  
 - **Develop multi-view fusion models** to combine CC and MLO mammogram views.  
 - **Add model uncertainty estimation** using Bayesian techniques.  
-- **Implement model pruning and quantization** for edge/low-resource deployment.
-
 ---
