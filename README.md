@@ -87,3 +87,10 @@ Build an accurate, interpretable, and scalable breast cancer detection system us
 - **Develop multi-view fusion models** to combine CC and MLO mammogram views.  
 - **Add model uncertainty estimation** using Bayesian techniques.  
 ---
+
+📜 Citation
+
+If you use this work, please cite:
+
+Author: Esther Okonkwo
+Year: 2025
