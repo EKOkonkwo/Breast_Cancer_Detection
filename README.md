@@ -12,6 +12,7 @@ Deep learning pipeline for mammogram classification using ResNet50, VGG16, and a
 5. [Libraries Used](#libraries-used)
 6. [Results](#results)
 7. [Model Summary](#model-summary-key-metrics)
+8. [Future Work](#future-work)
 
 ---
 
@@ -75,5 +76,18 @@ Build an accurate, interpretable, and scalable breast cancer detection system us
 | ResNet50-CNN        | 98.08%  | 0.9992  | 0.9760    | 0.9765 | 0.9762 | 0.0852 |
 | VGG16-CNN           | 97.60%  | 0.9940  | 0.9752    | 0.9772 | 0.9761 | 0.0970 |
 | Hybrid ResNet–ViT   | 96.79%  | 0.9925  | 0.9600    | 0.9647 | 0.9623 | 0.1039 |
+
+---
+
+## Future Work
+
+- **Expand dataset** using additional public and clinical mammography databases.  
+- **Integrate segmentation models** (U-Net, Mask R-CNN) for lesion boundary detection.  
+- **Introduce self-supervised learning** to improve feature extraction with limited labels.  
+- **Optimize the Hybrid ResNet–ViT** architecture with lightweight transformers (e.g., MobileViT, Swin-T).  
+- **Deploy as a cloud-based diagnostic tool** with real-time inference and explainability.  
+- **Develop multi-view fusion models** to combine CC and MLO mammogram views.  
+- **Add model uncertainty estimation** using Bayesian techniques.  
+- **Implement model pruning and quantization** for edge/low-resource deployment.
 
 ---
